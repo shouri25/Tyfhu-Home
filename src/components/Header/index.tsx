@@ -2,18 +2,14 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
-import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Link } from "@mui/material";
 import MenuItem from "./MenuItem";
+import MobileMenu from "./MobileMenu";
 
 interface Menu {
   id: string;
@@ -61,32 +57,6 @@ const DrawerAppBar = () => {
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
-
-  const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        Tyfhu
-      </Typography>
-      <Divider />
-      <List>
-        {NavItems.map((item) => (
-          <ListItem key={item.id} disablePadding>
-            <Link
-              href={item.id}
-              sx={{
-                textDecorationLine: "none",
-                fontWeight: "600",
-              }}
-            >
-              <ListItemButton sx={{ textAlign: "center" }}>
-                <ListItemText primary={item.title} />
-              </ListItemButton>
-            </Link>
-          </ListItem>
-        ))}
-      </List>
-    </Box>
-  );
 
   return (
     <Box sx={{ display: "flex" }}>
@@ -183,7 +153,7 @@ const DrawerAppBar = () => {
             },
           }}
         >
-          {drawer}
+          <MobileMenu handleDrawerToggle={handleDrawerToggle} NavItems={NavItems} />
         </Drawer>
       </nav>
     </Box>

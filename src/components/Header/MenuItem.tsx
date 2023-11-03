@@ -52,7 +52,6 @@ const MenuItem = ({ item }: MenuItemProps) => {
             sx={{
               color: "#000099",
               fontWeight: "600",
-
               padding: "8px",
             }}
           >
