@@ -1,7 +1,7 @@
-import { Box, Typography } from "@mui/material";
 import Operations from "./Operations";
 import Training from "./Training";
 import Analytics from "./Analytics";
+import Safety from "./Safety";
 
 const Solutions = () => {
   return (
@@ -12,22 +12,8 @@ const Solutions = () => {
         minHeight: "100%",
       }}
     >
-      <Box
-        sx={{
-          padding: { xs: "16px", md: "32px" },
-          backgroundColor: "#000066",
-        }}
-      >
-        <Typography
-          fontSize={28}
-          color={"#FFF"}
-          fontWeight={"bold"}
-          align="left"
-        >
-          Solutions
-        </Typography>
-      </Box>
       <Operations />
+      <Safety />
       <Training />
       <Analytics />
     </div>

@@ -19,7 +19,7 @@ const Analytics = () => {
           alignItems: "center",
           justifyContent: "center",
           flexDirection: { xs: "column", md: "row" },
-          backgroundColor: "#FFF",
+          backgroundColor: "#000066",
         }}
       >
         <Box
@@ -32,7 +32,7 @@ const Analytics = () => {
         >
           <Typography
             fontSize={28}
-            color={"#000066"}
+            color={"#FFF"}
             fontWeight={"bold"}
             align="left"
           >
@@ -40,7 +40,7 @@ const Analytics = () => {
           </Typography>
           <Typography
             fontSize={16}
-            color={"#000066"}
+            color={"#FFF"}
             align="left"
             marginTop={"16px"}
           >
@@ -52,7 +52,7 @@ const Analytics = () => {
 
           <Typography
             fontSize={16}
-            color={"#000066"}
+            color={"#FFF"}
             align="left"
             marginTop={"16px"}
           >

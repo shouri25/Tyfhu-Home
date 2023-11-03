@@ -19,7 +19,7 @@ const Training = () => {
             alignItems: "center",
             justifyContent: "center",
             flexDirection: { xs: "column", md: "row" },
-            backgroundColor: "#000066",
+            backgroundColor: "#FFF",
           }}
         >
 
@@ -48,7 +48,7 @@ const Training = () => {
           >
             <Typography
               fontSize={28}
-              color={"#FFF"}
+              color={"#000066"}
               fontWeight={"bold"}
               align="left"
             >
@@ -56,7 +56,7 @@ const Training = () => {
             </Typography>
             <Typography
               fontSize={16}
-              color={"#FFF"}
+              color={"#000066"}
               align="left"
               marginTop={"16px"}
             >
@@ -67,7 +67,7 @@ const Training = () => {
 
             <Typography
               fontSize={16}
-              color={"#FFF"}
+              color={"#000066"}
               align="left"
               marginTop={"16px"}
             >

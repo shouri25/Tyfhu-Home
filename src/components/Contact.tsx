@@ -12,24 +12,24 @@ const Contact = () => {
         sx={{
           width: "100%",
           height: "100%",
-          backgroundColor: "#000066",
+          backgroundColor: "#FFF",
           padding: "32px",
         }}
       >
         <Typography
           fontSize={28}
-          color={"#FFF"}
+          color={"#000066"}
           fontWeight={"bold"}
           align="left"
         >
           Contact Us
         </Typography>
-        <Typography color={"#FFF"} fontWeight={"bold"} align="center" marginTop={'16px'}>
+        <Typography color={"#000066"} fontWeight={"bold"} align="center" marginTop={'16px'}>
           Email us:
         </Typography>
-        <Typography color={"#FFF"} align="center">
+        <Typography color={"#000066"} align="center">
           -- Demo, Sales and General enquiries –
-          <a href="mailto:contact@tyfhu.com" style={{color:'#FFF'}}>
+          <a href="mailto:contact@tyfhu.com" style={{color:'#000066'}}>
           <Typography display={"inline"} marginLeft={"4px"} fontWeight={"bold"}>
             contact@tyfhu.com
           </Typography>
