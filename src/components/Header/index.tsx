@@ -13,6 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Link } from "@mui/material";
+import MenuItem from "./MenuItem";
 
 interface Menu {
   id: string;
@@ -22,14 +23,36 @@ interface Menu {
 
 const drawerWidth = 240;
 const NavItems: Menu[] = [
-    {
-      id: "#products",
-      title: "Products",
-    },
-    {
-      id: "#contact",
-      title: "Contact us",
-    },
+  {
+    id: "#platform",
+    title: "Platform",
+  },
+  {
+    id: "#solutions",
+    title: "Solutions",
+    items: [
+      {
+        id: "#operations",
+        title: "Operations workflow",
+      },
+      {
+        id: "#safety",
+        title: " Safety management",
+      },
+      {
+        id: "#training",
+        title: "Training",
+      },
+      {
+        id: "#analytics",
+        title: "Analytics",
+      },
+    ],
+  },
+  {
+    id: "#contact",
+    title: "Contact us",
+  },
 ];
 
 const DrawerAppBar = () => {
@@ -138,17 +161,7 @@ const DrawerAppBar = () => {
             </Link>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               {NavItems.map((item) => (
-                <Link
-                  key={item.id}
-                  style={{ color: "#000099",marginRight:'16px' }}
-                  href={item.id}
-                  sx={{
-                    textDecorationLine: "none",
-                    fontWeight: "600",
-                  }}
-                >
-                  {item.title}
-                </Link>
+                <MenuItem item={item} key={item.id} />
               ))}
             </Box>
           </Box>

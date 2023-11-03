@@ -1,10 +1,10 @@
 import { Box, Typography } from "@mui/material";
-import ProductImage from "../assets/products.png";
+import ProductImage from "../assets/platform.png";
 
-const Products = () => {
+const Platform = () => {
   return (
     <div
-      id="products"
+      id="platform"
       style={{
         width: "100%",
         minHeight: "100%",
@@ -72,4 +72,4 @@ const Products = () => {
     </div>
   );
 };
-export default Products;
+export default Platform;

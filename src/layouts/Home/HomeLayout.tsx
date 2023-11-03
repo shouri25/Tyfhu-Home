@@ -1,8 +1,9 @@
 import { Box } from "@mui/material";
 import Intro from "../../components/Intro";
-import Products from "../../components/Products";
+import Platform from "../../components/Platform";
 import Header from "../../components/Header";
 import Contact from "../../components/Contact";
+import Solutions from "../../components/Solutions";
 
 const HomeLayout = () => {
   return (
@@ -22,7 +23,8 @@ const HomeLayout = () => {
         <Header />
       </Box>
       <Intro />
-      <Products />
+      <Platform />
+      <Solutions />
       <Contact />
     </Box>
   );
