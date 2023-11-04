@@ -69,7 +69,7 @@ const Safety = () => {
           Safety
         </Typography>
         <Typography fontSize={16} color={"#FFF"} align="left">
-          Bridging the Safety Execution Gap Ensures safety procedures strictly
+          Bridging the Safety Execution Gap - Ensures safety procedures strictly
           followed
         </Typography>
         <Grid container sx={{ marginTop: "16px" }} spacing={2}>

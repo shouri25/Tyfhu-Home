@@ -29,7 +29,7 @@ const Intro = () => {
           }}
         >
           <Typography fontSize={48} color={"#FFF"} fontWeight={'bold'}>
-            Maximise Operational Performace Across all Stores
+            Maximize Operational Performance Across All Stores
           </Typography>
           <Typography fontSize={18} color={"#FFF"} fontWeight={'600'}>
             <Typography color={"#ffc000"} display={'inline'} fontWeight={'700'} sx={{
@@ -37,8 +37,8 @@ const Intro = () => {
             }}>Tyfhu</Typography>
             <Typography color={"#FFF"} display={'inline'} fontWeight={'600'} marginLeft={'3px'}>
                transforms Organizations like yours with Dynamic Workflow
-              Software, Digitized Food Safety, Training and Business
-              intelligence Analytics
+              Software, Digitised Food Safety Protocols, Training guides and AI
+              Driven Analytics
             </Typography>
           </Typography>
         </Box>

@@ -59,7 +59,7 @@ const Analytics = () => {
             Tyfhu provides operations leaders with data and insights via
             easy-to-use dashboards. These dashboards offer a comprehensive view
             across the system, allowing informed decision-making regarding brand
-            standards, completion of food safety protocols, training needs and
+            standards, compliance of food safety protocols, training needs and
             other operational aspects.
           </Typography>
         </Box>

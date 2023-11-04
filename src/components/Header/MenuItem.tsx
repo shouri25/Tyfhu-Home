@@ -32,8 +32,8 @@ const MenuItem = ({ item }: MenuItemProps) => {
           onClick={onClick}
           sx={{
             color: "#000099",
-
             fontWeight: "600",
+            textTransform:'none'
           }}
         >
           {item.title}
@@ -53,6 +53,7 @@ const MenuItem = ({ item }: MenuItemProps) => {
               color: "#000099",
               fontWeight: "600",
               padding: "8px",
+              textTransform:'none'
             }}
           >
             {item.title}
