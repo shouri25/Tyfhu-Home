@@ -76,7 +76,8 @@ const MenuItem = ({ item }: MenuItemProps) => {
                 sx={{
                   textDecorationLine: "none",
                   fontWeight: "600",
-                  color: "#000",
+                  color: "#000099",
+                  fontSize:'0.875rem'
                 }}
               >
                   {ele.title}

@@ -96,7 +96,7 @@ const MenuItem = ({ item }: MenuItemProps) => {
 const MobileMenu = ({ NavItems, handleDrawerToggle }: MobileMenuProps) => {
   return (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ my: 2 }} color={'#000099'} fontWeight={'bold'}>
         Tyfhu
       </Typography>
       <Divider />
